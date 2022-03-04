@@ -10,4 +10,4 @@ excerpt: "A complete guide to Gamecube Hardware and Software modding"
 ---
 Welcome to {insert url}! This website has the goal of enablilng homebrew on your cube and many more things such as aesthetic mods and video output!
 
-Make sure to check out {intro to homebrew page} and {model guide}
+Make sure to check out [intro to homebrew page](/introToHomebrew/), [the different gamecube models](/models/), and [the FAQ](/faq/).
