@@ -1,0 +1,37 @@
+---
+main:
+  -
+    title: Home
+    url: /
+  -
+    title: FAQ
+    url: faq
+  -
+    title: Placeholder
+    url: #
+  -
+    title: Credits
+    url: #
+  -
+    title: Site Navigation
+    url: site-navigation
+top:
+  -
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
+bottom:
+  -
+    title: For support in English, ask for help at <a href="">Gamecube on discord</a>.
+footer:
+  -
+    title: Source
+  -
+    title: Site Navigation
+  -
+    title: Privacy Policy
+sidebar_title:
+  -
+    title: Overall Progress
+sidebar_pages:
+  -
+    title: Home
+    url: /
