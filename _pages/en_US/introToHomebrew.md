@@ -2,23 +2,31 @@
 layout: single
 title: "Introduction to Homebrew"
 ---
+{% include toc title="Table of Contents" %}
 ## First, what is homebrew?
 Homebrew is a general term that refers to code running on a device that wasnt designed to be user programable.
 
 There is no single "homebrew" since it's a genre of software
 
-## Okay, that's pretty cool, but how do I do it?
+Most of the time you use Swiss, an all-in-one homebrew utility for the Nintendo GameCube.
 
-There are three(easy and modern) ways to boot into homebrew. The first being a drivechip such as the XenoGC and a burned disc with swiss or your homebrew(needs to be packed a certain way, but this will be covered later.), and the third is a ODE, or an optical drive emulator.
+## How can I do it?
 
-## XenoGC
+There are three (easy and modern) ways to boot into homebrew.
+- The first being a drivechip such as the XenoGC to use burned discs on your gamecube
+  * You will need some soldering experience to install it
+- The second is using Save Game Exploits, but in order to use it you need a memory card with your exploit
+  * either a gamecube/wii with homebrew to create it or you can buy an memory card with your exploit already installed.
+- The third is a ODE, or an optical drive emulator.
+  * currently there are out of stock :(
 
-This is probably what most people think of when it comes to homebrewing a gamecube. Solder a modchip onto your disc drive and read a burned game(it's a bit more involved than that but we will cover that on [this page](xenoInstall)).
+## Ways
+### XenoGC
+- This is probably what most people think of when it comes to homebrewing a gamecube. Solder a modchip onto your disc drive and read a burned game(it's a bit more involved than that but we will cover that on [this page](xenoInstall)).
 
-## Save game exploits
+### Game Save Exploits
+- This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup
+  * You can find more instructions on the [save game exploit](saveGameExploit) page!
 
-This is the second way, it is usually free or cheap(if you already have the game) and generally easy to setup. You can find more instructions on the [save game exploit](saveGameExploit) page!
-
-## ODE(GCLoader)
-
-This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means 1. you can autoboot a swiss disc iso, but 2. you can no longer use actual discs
+### ODE(GCLoader)
+- This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a swiss disc iso, but you can no longer use actual discs
