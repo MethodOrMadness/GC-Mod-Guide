@@ -18,3 +18,7 @@ This is probably what most people think of when it comes to homebrewing a gamecu
 ## Save game exploits
 
 This is the second way, it is usually free or cheap(if you already have the game) and generally easy to setup. You can find more instructions on the [save game exploit](saveGameExploit) page!
+
+## ODE(GCLoader)
+
+This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means 1. you can autoboot a swiss disc iso, but 2. you can no longer use actual discs
