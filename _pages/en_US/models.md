@@ -14,5 +14,5 @@ To check that, you need to rotate your GameCube to get the sticker with the seri
 
 ## DOL-101
 - This is the later revision of the hardware, you can still homebrew it but you miss on some features of the hardware
-  * notably an easy internal hdmi mod/hdmi adapter, SD2SP2
+  * notably an easy internal hdmi mod/hdmi adapter, SD2SP2, though the SD2SP2 can still be soldered on but is much more difficult, and will be covered in the hardware modding section.
 - ODE's, Save Game Exploits, and SDGecko's still work all the same
