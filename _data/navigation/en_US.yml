@@ -4,14 +4,14 @@ main:
     title: Home
     url: /
   -
+    title: Introduction
+    url: introToHomebrew
+  -
     title: FAQ
     url: faq
   -
-    title: Placeholder
-    url: #
-  -
     title: Credits
-    url: credit/
+    url: credit
   -
     title: Site Navigation
     url: site-navigation
