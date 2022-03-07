@@ -21,7 +21,7 @@ There are two types of installs, wired and wire-free. Since the xenoGC is an ope
 
 ### Wired install
 
-Refrencing the image below, use some small wire like 30 or 32awg magnet wire for the data wires and 22awg for power and ground(power is pad 10 and ground is pad 1 in the image below)
+Referencing the image below, use some small wire like 30 or 32awg magnet wire for the data wires and 22awg for power and ground(power is pad 10 and ground is pad 1 in the image below)
 
 ![alt solder points](/images/xenogc/altpoint.webp)
 
