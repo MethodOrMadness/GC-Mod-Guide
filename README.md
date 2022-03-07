@@ -8,6 +8,8 @@ most things inside curly braces in text bodies indicate links to pages that dont
 ## File Structure
 General info should just go in `_pages/en_US`, software guides should go in `_pages/en_US/software`, and hardware guides should go in `_pages/en_US/hardware`
 
+User-downloadable files should be stored in `files`
+
 ### Save Exploits
 Save exploit guides are stored under `_pages/en_US/software/saveExploits`. there is a file called `saveExploits.md`. this is the main page for save exploits and will have a TOC with all the other pages and other general info
 
