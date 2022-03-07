@@ -13,6 +13,8 @@ First, check out the [disassembly guide](/disassembly) before continuing! You ne
 
 There are two types of installs, wired and wire-free. Since the xenoGC is an open-source modchip(meaning anyone can make it), it's been cloned countless times, and the specifications of the pcb might be off. For this reason we personally recommend a wired install.
 
+If you need a video in order to understand, [this one by rockergaming](https://www.youtube.com/watch?v=WRbmqxqEL8Q) covers the entire install and even disassembly(though through timelapse)
+
 ## Installing
 
 ### Wire-free install
