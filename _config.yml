@@ -23,7 +23,7 @@ locale                   : "en-US"
 title                    : "Gamecube Hacks Guide"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Method"
+name                     : "MethodOrMadness"
 description              : "A complete guide to Gamecube Hard/Soft modding"
 url                      : "https://gamecube-guide.retrotastes.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 enforce_ssl              : "gamecube-guide.retrotastes.com"
