@@ -14,6 +14,7 @@ title: "Site Navigation"
 + [Model Guide](/models)
 
 **Homebrew**
++ [Intro to Homebrew](/introToHomebrew)
 
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
