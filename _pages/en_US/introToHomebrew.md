@@ -26,7 +26,7 @@ There are three (easy and modern) ways to boot into homebrew.
 
 ### Game Save Exploits
 - This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup
-  * You can find more instructions on the [save game exploit](saveGameExploit) page!
+  * You can find more instructions on the [save game exploit](saveExploits) page!
 
 ### ODE(GCLoader)
 - This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a Swiss disc iso, but you can no longer use actual discs
