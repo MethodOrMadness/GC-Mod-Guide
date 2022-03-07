@@ -1,6 +1,4 @@
 ---
 layout: single
-title: "Different Models"
+title: "XenoGC Install"
 ---
-
-test
