@@ -30,3 +30,9 @@ There are three (easy and modern) ways to boot into homebrew.
 
 ### ODE(GCLoader)
 - This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a Swiss disc iso, but you can no longer use actual discs
+
+## Legacy / Complicated
+
+### PSOLoad
+
+Checkout [this page](/PSOLoad)
