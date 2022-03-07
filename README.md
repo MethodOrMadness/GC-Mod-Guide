@@ -17,4 +17,4 @@ Save exploit guides are stored under `_pages/en_US/software/saveExploits`. there
 
 ## Contributing
 
-If you are so kind as to contribute to this guide(Thank you! so far this entire thing has been written singlehandedly by me) feel free to fork it and work on the `Development` branch, this branch has the most up-to-date changes before merging into `master`, which is what the website runs
+If you are so kind as to contribute to this guide(Thank you!) feel free to fork it and work on the `Development` branch, this branch has the most up-to-date changes before merging into `master`, which is what the website runs
