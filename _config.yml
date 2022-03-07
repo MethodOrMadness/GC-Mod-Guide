@@ -47,7 +47,7 @@ defaults:
       path: "_pages/"
       type: pages
     values:
-      permalink: /:basename:output_ext #TODO: permalink needs to be fixed for subdirectories
+      permalink: /:basename:output_ext #REMINDER: simple linking with /filename
       lang: en
 
 include: ["_pages"]
