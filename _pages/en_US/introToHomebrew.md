@@ -20,7 +20,7 @@ There are three (easy and modern) ways to boot into homebrew.
 - The third is an ODE, or an optical drive emulator.
   * currently, at the time of writing, the GCLoader (only ODE available) is out of stock. We advise against opting for the cloned "GCLoader Lite's" you see on ebay as these have lots of issues.
 
-## Ways
+## Methods
 ### XenoGC
 - This is probably what most people think of when it comes to homebrewing a gamecube. Solder a modchip onto your disc drive and read a burned game(it's a bit more involved than that but we will cover that on [this page](xenoInstall)).
 
