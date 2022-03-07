@@ -24,4 +24,10 @@ There are two types of installs, wired and wireless. Since the xenoGC is an open
 
 #### Secondary soldering locations
 
-## Testing
+## Testing / Troubleshooting
+
+When you power on the cube you should see a red LED light up and then turn green(or turn orange depending on the version). this indicates the drive has been patched and *should* read burned / out of region discs. If you aren't using out of region(but official) discs but instead burned media, proceed to the next step
+
+### Laser adjustment
+
+Typically this step is required, you want to turn the potentiometer on the cube to lower the resistance, we recommend going about 10ohm at a time. use a multimeter to verify the correct resistance.
