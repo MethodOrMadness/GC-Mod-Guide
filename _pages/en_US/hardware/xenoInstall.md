@@ -17,12 +17,13 @@ There are two types of installs, wired and wireless. Since the xenoGC is an open
 
 ### Wireless install
 
+![solder points](/images/xenogc/install.jpg)
+
 ### Wired install
 
-#### Main solder points
+Refrencing the image below, use some small wire like 30 or 32awg magnet wire for the data wires and 22awg for power and ground(power is pad 10 and ground is pad 1 in the image below)
 
-
-#### Secondary soldering locations
+![alt solder points](/images/xenogc/altpoint.webp)
 
 ## Testing / Troubleshooting
 
