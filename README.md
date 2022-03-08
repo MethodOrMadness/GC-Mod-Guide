@@ -20,6 +20,8 @@ User-downloadable files should be stored in `files`
 ### Save Exploits
 Save exploit guides are stored under `_pages/en_US/software/saveExploits`. there is a file called `saveExploits.md`. this is the main page for save exploits and will have a TOC with all the other pages and other general info
 
+Save exploit files should be in `/files/saves/GAMENAME.zip`. They should also be named properly for gcmm. e.g. paper mario the thousand year door has an NTSC-U game id of `G8ME` so that save file would be `G8ME.gci`
+
 ### Hardware
 
 ## Contributing
