@@ -20,13 +20,33 @@ There are three (easy and modern) ways to boot into homebrew.
 - The third is an ODE, or an optical drive emulator.
   * currently, at the time of writing, the GCLoader (only ODE available) is out of stock. We advise against opting for the cloned "GCLoader Lite's" you see on ebay as these have lots of issues.
 
-## Ways
+## Methods
 ### XenoGC
 - This is probably what most people think of when it comes to homebrewing a gamecube. Solder a modchip onto your disc drive and read a burned game(it's a bit more involved than that but we will cover that on [this page](xenoInstall)).
 
 ### Game Save Exploits
 - This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup
-  * You can find more instructions on the [save game exploit](saveGameExploit) page!
+  * You can find more instructions on the [save game exploit](saveExploits) page!
 
 ### ODE(GCLoader)
 - This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a Swiss disc iso, but you can no longer use actual discs
+
+## Legacy / Complicated
+
+### PSOLoad
+
+Checkout [this page](/PSOLoad)
+
+* requires a BBA and a copy of PSO Episode 1/2
+
+### Action Replay
+
+Checkout [this page](/actionReplay)
+
+* Requires a action replay disc and sd gecko
+
+### SD Media Launcher
+
+Checkout [this page](/sdMediaLauncher)
+
+* Requires a disc and sd gecko purchased from [here](https://www.codejunkies.com/products/sd-media-launcher__ef000580v.aspx)
