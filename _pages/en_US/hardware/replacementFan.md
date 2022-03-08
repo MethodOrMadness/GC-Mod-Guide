@@ -22,7 +22,11 @@ After removing the fan bracket you have two choices, the [40mm](/files/fan/40mmb
 
 The 50mm fan bracket is larger, as it replaces the entire mounting part for the fan. As such it takes longer to 3D print.
 
+![50mm bracket installed inside cube](/images/50mm.ext)
+
 ### 40mm
 [Download](/files/fan/40mmbracket.stl)
 
 The 40mm bracket is smaller and fits inside the stock bracket, since it's just an adapter for the stock mounting bracket. This means less print time, but the fan does have to be smaller and can't move as much air.
+
+![40mm bracket installed inside cube](/images/40mm.ext)
