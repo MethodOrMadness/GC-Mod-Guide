@@ -36,3 +36,17 @@ There are three (easy and modern) ways to boot into homebrew.
 ### PSOLoad
 
 Checkout [this page](/PSOLoad)
+
+* requires a BBA and a copy of PSO Episode 1/2
+
+### Action Replay
+
+Checkout [this page](/actionReplay)
+
+* Requires a action replay disc and sd gecko
+
+### SD Media Launcher
+
+Checkout [this page](/sdMediaLauncher)
+
+* Requires a disc and sd gecko purchased from [here](https://www.codejunkies.com/products/sd-media-launcher__ef000580v.aspx)
