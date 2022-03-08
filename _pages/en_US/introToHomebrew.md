@@ -19,6 +19,7 @@ There are three (easy and modern) ways to boot into homebrew.
   * either a gamecube/wii with homebrew to create it or you can buy an memory card with your exploit already installed.
 - The third is an ODE, or an optical drive emulator.
   * currently, at the time of writing, the GCLoader (only ODE available) is out of stock. We advise against opting for the cloned "GCLoader Lite's" you see on ebay as these have lots of issues.
+- If you are interested, you can check out [some other exploits](/introToHomebrew#legacy--complicated) available for the Gamecube
 
 ## Methods
 ### XenoGC
