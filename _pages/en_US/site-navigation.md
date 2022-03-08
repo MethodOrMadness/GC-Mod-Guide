@@ -37,7 +37,7 @@ title: "Site Navigation"
 **Hardware**
 + [Disassembly](/disassembly)
 + [GCLoader](/gcloader)
-+ [replacement Fan](/replacementFan)
++ [Replacement Fan](/replacementFan)
 + [SD2SP2](/sd2sp2)
 + [SNES2GC](/snes2gc)
 + [xenoGC Install](/xenoInstall)
