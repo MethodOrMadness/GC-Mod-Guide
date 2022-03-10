@@ -25,7 +25,7 @@ title: "Site Navigation"
     + [F-Zero GX](/FZero)
     + [The Legend of Zelda: Twilight Princess](/TLOZTP)
     + [The Legend of Zelda: Wind Waker](/TLOZWW)
-    + [Tom Clancy: Ghost Recon](/ghostRecon)
+    + [Tom Clancy: Ghost Recon 2](/ghostRecon)
     + [Tom Clancy: Splinter Cell](/splinterCell)
     + [Tom Clancy: Splinter Cell Pandora](/splinterCellPandora)
     + [Paper Mario: Thousand Year Door](/PMTYOD)
