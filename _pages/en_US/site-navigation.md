@@ -41,6 +41,10 @@ title: "Site Navigation"
 + [SD2SP2](/sd2sp2)
 + [SNES2GC](/snes2gc)
 + [xenoGC Install](/xenoInstall)
++ [GCVideo](/gcvideo)
+    + [GCDigital](/gcdigital) -No Info for now.
+    + [GCDual](/gcdual)
+    + [Plug and Play](/plugnplay)
 
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
