@@ -41,6 +41,7 @@ title: "Site Navigation"
 + [SD2SP2](/sd2sp2)
 + [SNES2GC](/snes2gc)
 + [xenoGC Install](/xenoInstall)
++ [Digital port in dol-101](/dol101digital)
 + [GCVideo](/gcvideo)
     + [GCDigital](/gcdigital) -No Info for now.
     + [GCDual](/gcdual)
