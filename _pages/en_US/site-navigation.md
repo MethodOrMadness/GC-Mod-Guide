@@ -36,11 +36,18 @@ title: "Site Navigation"
 
 **Hardware**
 + [Disassembly](/disassembly)
++ [Controller Port LED's](/controllerLED)
 + [GCLoader](/gcloader)
 + [Replacement Fan](/replacementFan)
 + [SD2SP2](/sd2sp2)
 + [SNES2GC](/snes2gc)
 + [xenoGC Install](/xenoInstall)
++ [Digital port in dol-101](/dol101digital)
++ [Plug and Play Support Brace](/plugnplaysupport)
++ [GCVideo](/gcvideo)
+    + [GCDigital](/gcdigital) -No Info for now.
+    + [GCDual](/gcdual)
+    + [Plug and Play](/plugnplay)
 
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

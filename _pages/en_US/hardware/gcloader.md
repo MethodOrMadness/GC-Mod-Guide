@@ -1,4 +1,4 @@
 ---
 layout: single
-title: "ODE(GCLoader)"
+title: "GCLoader"
 ---

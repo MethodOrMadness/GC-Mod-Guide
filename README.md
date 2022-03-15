@@ -12,6 +12,38 @@ most things inside curly braces in text bodies indicate links to pages that dont
 * SDMedia launcher / action replay guides are missing. I know nothing about them so i need someone to give a bit more info.
 * Some pictures of a DOL-101 cube. inside and out. all angles. Please contact me(method) through the gamecube discord for more info
 
+### Pages that need work:
++ Action Replay
++ SD Media Launcher
++ Save Exploits(the main page is done):
+    + 007
+    + AC
+    + BMX XXX
+    + FZero
+    + TP
+    + WW
+    + Ghost Recon 2
+    + Splinter Cell
+    + Splinter Cell Pandora
+    + TTYOD
+    + Colosseum
+    + pk XD
+    + SMS
+    + Melee
++ Disassembly
++ Controller Port LED
++ GCLoader
++ Fan Replacement(needs images)
++ SD2SP2
++ SNES2GC
++ Digital Port in DOL-101
++ Support Braces
++ GCDigital(leave for now
+
+Half done:
++ GCDual
++ Plug and Play
+
 ## File Structure
 General info should just go in `_pages/en_US`, software guides should go in `_pages/en_US/software`, and hardware guides should go in `_pages/en_US/hardware`
 
