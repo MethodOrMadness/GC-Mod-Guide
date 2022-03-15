@@ -12,11 +12,9 @@ title: "GCVideo"
 ## GCDual
 Warning: This particular mod requires lots of internal modifications, and is not for the average user. it is incredibly difficult. If you don't have really good soldering skills, you should stick to one of the [Plug And Play Adapters](/gcvideo#plug-and-play-adapters)
 
+You can find more info on the [GCDual](/gcdual) page.
+
 ## Plug And Play Adapters
 All of these adapters plug directly into the digital out port in the gamecube, meaning they aren't compatible with the DOL-101 model without some more difficult hard mods
 
-### Carby
-
-### RetroBit Prism
-
-### Eon GCHD mk-II
+You can find more information on the [Plug and Play](/plugnplay) page.
