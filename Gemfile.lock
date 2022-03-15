@@ -52,7 +52,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 2.0)
-    jekyll-feed (0.16.0)
+    jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
@@ -111,7 +111,7 @@ GEM
     unicode-display_width (1.8.0)
 
 PLATFORMS
-  x86_64-linux
+  universal-darwin-21
 
 DEPENDENCIES
   jekyll (~> 4.2.1)
@@ -123,4 +123,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.3.8
+   2.3.9
