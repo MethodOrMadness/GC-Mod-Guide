@@ -36,6 +36,7 @@ When you power on the cube you should see a red LED light up and then turn green
 Typically this step is required, you want to turn the potentiometer on the cube to lower the resistance, we recommend going about 10ohm at a time. use a multimeter to verify the correct resistance.
 
 ![Multimeter](/images/Multimeter_Res.jpg)
+
 Make sure your multimeter is on Resistence mode, set above 200ohm(highlighted in green)
 
 The blue highlighted section is your reading, this tells you the resistence.
@@ -43,4 +44,5 @@ The blue highlighted section is your reading, this tells you the resistence.
 The Red highlighted section are your multimeter leads, you will use thse on the potentiometer to find the resistence.
 
 ![Potetiometer](/images/Drive_Pot.jpg)
-Above is the drive potentiometer, touch the two leads of your multimeter to either point(the color does not matter.) and check the reading. for DOL-001 units(the drive essembly, not the cube itself) this should be between 400 and 500 ohms, make sure to lower it when testing media. for DOL-101 units this can be more around 100-200. Again, lower if if you can read retail discs but not burned ones.
+
+Above is the drive potentiometer, touch the two leads of your multimeter to either point(the color does not matter.) and check the reading. for DOL-001 units(the drive assembly, not the cube itself) this should be between 450 and 600 ohms, make sure to lower it when testing media. for DOL-101 units this can be more around 150-250. Again, lower if if you can read retail discs but not burned ones.
