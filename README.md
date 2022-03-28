@@ -33,8 +33,6 @@ most things inside curly braces in text bodies indicate links to pages that dont
 + Disassembly
 + Controller Port LED
 + GCLoader
-+ Fan Replacement(needs images)
-+ SD2SP2
 + SNES2GC
 + Digital Port in DOL-101
 + Support Braces
@@ -43,6 +41,8 @@ most things inside curly braces in text bodies indicate links to pages that dont
 Half done:
 + GCDual
 + Plug and Play
++ SD2SP2
++ Fan Replacement(needs images)
 
 ## File Structure
 General info should just go in `_pages/en_US`, software guides should go in `_pages/en_US/software`, and hardware guides should go in `_pages/en_US/hardware`
