@@ -15,3 +15,8 @@ The drop in mod requires no permanent modification. Turn your GameCube upside do
 ## Soldering
 This particular version works with any and all GameCube models, but requires complex disassembly and soldering to your console. We are not responsible for any damages done attempting this install.
 {: .notice--warning}
+
+Materials:
+Soldering Iron
+SD Card slot
+Wire(various sizes)
