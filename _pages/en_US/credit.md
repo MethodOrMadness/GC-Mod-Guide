@@ -13,3 +13,5 @@ title: "Credits"
 - 50mm fan bracket: [LaserBearIndustries](https://www.thingiverse.com/thing:3117104)
 
 - 40mm fan bracket: [RetroFrog](https://www.prusaprinters.org/prints/118034-gamecube-40mm-screwless-fan-adapter/files)
+
+- sd2sp2.md image for drop-in: Atamik#0002 from the r/GameCube Discord
