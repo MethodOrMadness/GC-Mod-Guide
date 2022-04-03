@@ -33,6 +33,7 @@ title: "Site Navigation"
     + [Pokemon XD](/pkXD)
     + [Super Mario Sunshine](/sms)
     + [Super Smash Bros Melee](/ssbm)
++ [Dump your IPL for use on emulators / dolphin](/ipl)
 
 **Hardware**
 + [Disassembly](/disassembly)
