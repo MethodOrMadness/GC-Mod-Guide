@@ -15,3 +15,5 @@ title: "Credits"
 - 40mm fan bracket: [RetroFrog](https://www.prusaprinters.org/prints/118034-gamecube-40mm-screwless-fan-adapter/files)
 
 - sd2sp2.md image for drop-in: Atamik#0002 from the r/GameCube Discord
+
+- sd2sp2.md hardmod images from [This BB Thread](https://bitbuilt.net/forums/index.php?threads/dol-101-sd-card-slot-installation.3949/)

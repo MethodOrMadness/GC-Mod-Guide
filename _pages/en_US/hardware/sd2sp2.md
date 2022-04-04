@@ -20,3 +20,7 @@ Materials:
 + Soldering Iron
 + SD Card slot
 + Wire(various sizes)
+
+### Generic SD Card Pinout
+
+![SD Card Pinout](/images/sp2/sdcardpin.png)
