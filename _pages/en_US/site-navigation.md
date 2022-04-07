@@ -7,8 +7,8 @@ title: "Site Navigation"
 **Website**
 + [Home](/)
 + [FAQ](/faq)
-+ [Credits](/credit)
 + [Site Navigation](/site-navigation)
++ [Credits](/credit)
 
 **Non-Homebrew**
 + [Model Guide](/models)
