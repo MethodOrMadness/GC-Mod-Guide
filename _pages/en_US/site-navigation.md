@@ -15,7 +15,6 @@ title: "Site Navigation"
 
 **Homebrew**
 + [Intro to Homebrew](/introToHomebrew)
-+ [Action Replay](/actionReplay)
 + [PSOLoad](/PSOLoad)
 + [SD Media Launcher](/sdMediaLauncher)
 + [Save Exploits](/saveExploits)

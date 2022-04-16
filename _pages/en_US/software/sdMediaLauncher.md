@@ -1,4 +1,4 @@
 ---
 layout: single
-title: "SD Media Launcher"
+title: "SD Media Launcher / Action replay"
 ---

@@ -43,13 +43,7 @@ Checkout [this page](/PSOLoad)
 
 * requires a BBA and a copy of PSO Episode 1/2
 
-### Action Replay
-
-Checkout [this page](/actionReplay)
-
-* Requires a action replay disc and sd gecko
-
-### SD Media Launcher
+### SD Media Launcher / Action Replay
 
 Checkout [this page](/sdMediaLauncher)
 
