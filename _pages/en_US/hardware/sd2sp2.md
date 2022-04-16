@@ -24,3 +24,7 @@ Materials:
 ### Generic SD Card Pinout
 
 ![SD Card Pinout](/images/sp2/sdcardpin.png)
+
+### Soldering points on motherboard
+
+[![GC Motherboard Soldering Locations](/images/sp2/wiringcolors.png)](/images/sp2/wiringcolors.png)
