@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Gamecube Hardware Guide"
+title: "Gamecube Modding Guide"
 header:
   overlay_color: "#5e616c"
   overlay_image: /images/home-page-feature.jpg
