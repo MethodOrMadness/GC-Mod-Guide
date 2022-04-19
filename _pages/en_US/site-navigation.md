@@ -7,15 +7,14 @@ title: "Site Navigation"
 **Website**
 + [Home](/)
 + [FAQ](/faq)
-+ [Credits](/credit)
 + [Site Navigation](/site-navigation)
++ [Credits](/credit)
 
 **Non-Homebrew**
 + [Model Guide](/models)
 
 **Homebrew**
 + [Intro to Homebrew](/introToHomebrew)
-+ [Action Replay](/actionReplay)
 + [PSOLoad](/PSOLoad)
 + [SD Media Launcher](/sdMediaLauncher)
 + [Save Exploits](/saveExploits)
@@ -33,6 +32,7 @@ title: "Site Navigation"
     + [Pokemon XD](/pkXD)
     + [Super Mario Sunshine](/sms)
     + [Super Smash Bros Melee](/ssbm)
++ [Dump your IPL for use on emulators / dolphin](/ipl)
 
 **Hardware**
 + [Disassembly](/disassembly)
@@ -42,6 +42,7 @@ title: "Site Navigation"
 + [SD2SP2](/sd2sp2)
 + [SNES2GC](/snes2gc)
 + [xenoGC Install](/xenoInstall)
++ [IPL Replacement](/iplreplacement)
 + [Digital port in dol-101](/dol101digital)
 + [Plug and Play Support Brace](/plugnplaysupport)
 + [GCVideo](/gcvideo)
