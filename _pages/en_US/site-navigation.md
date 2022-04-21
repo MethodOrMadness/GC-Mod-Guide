@@ -39,6 +39,7 @@ title: "Site Navigation"
 + [Controller Port LED's](/controllerLED)
 + [GCLoader](/gcloader)
 + [Replacement Fan](/replacementFan)
++ [RTC Battery Holder/Replacement](/rtcbat)
 + [SD2SP2](/sd2sp2)
 + [SNES2GC](/snes2gc)
 + [xenoGC Install](/xenoInstall)
