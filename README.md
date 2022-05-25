@@ -13,8 +13,6 @@ most things inside curly braces in text bodies indicate links to pages that dont
 * Some pictures of a DOL-101 cube. inside and out. all angles. Please contact me(method) through the gamecube discord for more info
 
 ### Pages that need work:
-+ Action Replay
-+ SD Media Launcher
 + Save Exploits(the main page is done):
     + 007
     + AC
@@ -31,7 +29,6 @@ most things inside curly braces in text bodies indicate links to pages that dont
     + SMS
     + Melee
 + Disassembly
-+ Controller Port LED
 + GCLoader
 + SNES2GC
 + Digital Port in DOL-101
@@ -41,8 +38,9 @@ most things inside curly braces in text bodies indicate links to pages that dont
 Half done:
 + GCDual
 + Plug and Play
-+ SD2SP2
++ SD2SP2(?)
 + Fan Replacement(needs images)
++ Controller Port LED
 
 ## File Structure
 General info should just go in `_pages/en_US`, software guides should go in `_pages/en_US/software`, and hardware guides should go in `_pages/en_US/hardware`

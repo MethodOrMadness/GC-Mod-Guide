@@ -19,6 +19,10 @@ If you need a video in order to understand, [this one by rockergaming](https://w
 
 ### Wire-free install
 
+Make sure you cover up the unused pads to avoid bridging.
+
+![taped joint](/images/xenogc/tapedjoint.png)
+
 ![solder points](/images/xenogc/install.jpg)
 
 ### Wired install

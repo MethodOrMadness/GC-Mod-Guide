@@ -32,6 +32,9 @@ There are three (easy and modern) ways to boot into homebrew.
 ### ODE(GCLoader)
 - This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a Swiss disc iso, but you can no longer use actual discs
 
+### IPL Replacement
+- Unavailable, check back later for more info
+
 ## Legacy / Complicated
 
 ### PSOLoad
@@ -40,13 +43,7 @@ Checkout [this page](/PSOLoad)
 
 * requires a BBA and a copy of PSO Episode 1/2
 
-### Action Replay
-
-Checkout [this page](/actionReplay)
-
-* Requires a action replay disc and sd gecko
-
-### SD Media Launcher
+### SD Media Launcher / Action Replay
 
 Checkout [this page](/sdMediaLauncher)
 

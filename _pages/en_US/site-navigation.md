@@ -7,15 +7,14 @@ title: "Site Navigation"
 **Website**
 + [Home](/)
 + [FAQ](/faq)
-+ [Credits](/credit)
 + [Site Navigation](/site-navigation)
++ [Credits](/credit)
 
 **Non-Homebrew**
 + [Model Guide](/models)
 
 **Homebrew**
 + [Intro to Homebrew](/introToHomebrew)
-+ [Action Replay](/actionReplay)
 + [PSOLoad](/PSOLoad)
 + [SD Media Launcher](/sdMediaLauncher)
 + [Save Exploits](/saveExploits)
@@ -40,9 +39,11 @@ title: "Site Navigation"
 + [Controller Port LED's](/controllerLED)
 + [GCLoader](/gcloader)
 + [Replacement Fan](/replacementFan)
++ [RTC Battery Holder/Replacement](/rtcbat)
 + [SD2SP2](/sd2sp2)
 + [SNES2GC](/snes2gc)
 + [xenoGC Install](/xenoInstall)
++ [IPL Replacement](/iplreplacement)
 + [Digital port in dol-101](/dol101digital)
 + [Plug and Play Support Brace](/plugnplaysupport)
 + [GCVideo](/gcvideo)
