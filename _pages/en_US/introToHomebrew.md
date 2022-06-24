@@ -22,8 +22,6 @@ There are three (easy and modern) ways to boot into homebrew.
 - If you are interested, you can check out [some other exploits](/introToHomebrew#legacy--complicated) available for the Gamecube
 
 ## Methods
-### XenoGC
-- This is probably what most people think of when it comes to homebrewing a gamecube. Solder a modchip onto your disc drive and read a burned game(it's a bit more involved than that but we will cover that on [this page](xenoInstall)).
 
 ### Game Save Exploits
 - This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup
@@ -33,9 +31,16 @@ There are three (easy and modern) ways to boot into homebrew.
 - This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a Swiss disc iso, but you can no longer use actual discs
 
 ### IPL Replacement
-- Unavailable, check back later for more info
+- A new IPL Chip will be released soon! We will write a guide asap.
 
 ## Legacy / Complicated
+
+### XenoGC
+Checkout [this page](xenoInstall))
+
+* only if you want to have a region-free console to use for example japanese game disks or burned disks
+* requires soldering a modchip into the disk drive to boot burned disks (in this example a Swiss-Disk)
+* not recommended as the berrycube is easier to install, costs the same as the xenogc and the drive does not wear out
 
 ### PSOLoad
 
