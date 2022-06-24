@@ -40,7 +40,7 @@ Checkout [this page](xenoInstall))
 
 * only if you want to have a region-free console to use for example japanese game disks or burned disks
 * requires soldering a modchip into the disk drive to boot burned disks (in this example a Swiss-Disk)
-* not recommended, more afford needed as the berrycube, costs the same and wears out the disk drive
+* not recommended as the berrycube is easier to install, costs the same as the xenogc and the drive does not wear out
 
 ### PSOLoad
 
