@@ -13,7 +13,8 @@ Most of the time you use Swiss, an all-in-one homebrew utility for the Nintendo 
 ## How can I do it?
 
 There are three (easy and modern) ways to boot into homebrew.
-- The first being a drivechip such as the XenoGC to use burned discs on your gamecube
+
+- The first being a modchip such as the Berrycube to boot directly into e.g. Swiss
   * You will need some soldering experience to install it
 - The second is using Save Game Exploits, but in order to use it you need a memory card with your exploit
   * either a gamecube/wii with homebrew to create it or you can buy an memory card with your exploit already installed.
@@ -22,6 +23,9 @@ There are three (easy and modern) ways to boot into homebrew.
 - If you are interested, you can check out [some other exploits](/introToHomebrew#legacy--complicated) available for the Gamecube
 
 ## Methods
+
+### IPL Replacement
+- A new IPL Chip(Berrycube) will be released soon! We will write a guide asap.
 
 ### Game Save Exploits
 - This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup

@@ -17,7 +17,7 @@ title: "Fan Replacement"
 Follow the [disassembly](/disassembly) until you have removed the fan bracket.
 {: .notice--info}
 
-## Variations
+## Variations 
 After removing the fan bracket you have two choices, the [40mm](/files/fan/40mmbracket.stl) bracket, which works with 40mm fans (including noctua), or the [50mm](/files/fan/50mmbracket.stl) bracket, which works with 50mm fans(currently, noctua doesn't offer one, but there are 50mm fan's available).
 - 50mm fan [Download](/files/fan/50mmbracket.stl)
   * The 50mm fan bracket is larger, as it replaces the entire mounting part for the fan. As such it takes longer to 3D print.
