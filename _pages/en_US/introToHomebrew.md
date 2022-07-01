@@ -30,8 +30,8 @@ There are three (easy and modern) ways to boot into homebrew.
 ### ODE(GCLoader)
 - This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a Swiss disc iso, but you can no longer use actual discs
 
-### IPL Replacement
-- A new IPL Chip will be released soon! We will write a guide asap.
+### Picoboot IPL Replacement
+- This is an IPL replacement modchip that instantly boots swiss(or other homebrew) on startup! Created by [webHDX](https://github.com/webhdx/picoboot), [Picoboot](picoboot) runs on a 4$ microcontroller using 5 wires and a drag-and-drop programming from any computer! 
 
 ## Legacy / Complicated
 

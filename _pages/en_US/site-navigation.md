@@ -43,7 +43,7 @@ title: "Site Navigation"
 + [SD2SP2](/sd2sp2)
 + [SNES2GC](/snes2gc)
 + [xenoGC Install](/xenoInstall)
-+ [BerryCube IPL Replacement](/berrycube)
++ [Picoboot IPL Replacement](/picoboot)
 + [Digital port in dol-101](/dol101digital)
 + [Plug and Play Support Brace](/plugnplaysupport)
 + [GCVideo](/gcvideo)
