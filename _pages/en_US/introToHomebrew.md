@@ -14,7 +14,7 @@ Most of the time you use Swiss, an all-in-one homebrew utility for the Nintendo 
 
 There are three (easy and modern) ways to boot into homebrew.
 
-- The first being a modchip such as the Berrycube to boot directly into e.g. Swiss
+- The first being a modchip such as the Picoboot to boot directly into e.g. Swiss
   * You will need some soldering experience to install it
 - The second is using Save Game Exploits, but in order to use it you need a memory card with your exploit
   * either a gamecube/wii with homebrew to create it or you can buy an memory card with your exploit already installed.
@@ -24,8 +24,9 @@ There are three (easy and modern) ways to boot into homebrew.
 
 ## Methods
 
-### IPL Replacement
-- A new IPL Chip(Berrycube) will be released soon! We will write a guide asap.
+### Picoboot IPL Replacement
+- The most practical way would be a IPL replacement modchip from [webHDX](https://github.com/webhdx/picoboot) that instantly boots swiss(or other homebrew) on startup!
+  * [Picoboot](picoboot) runs on a 4$ microcontroller using 5 wires and a drag-and-drop programming from any computer
 
 ### Game Save Exploits
 - This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup
@@ -34,8 +35,7 @@ There are three (easy and modern) ways to boot into homebrew.
 ### ODE(GCLoader)
 - This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a Swiss disc iso, but you can no longer use actual discs
 
-### Picoboot IPL Replacement
-- This is an IPL replacement modchip that instantly boots swiss(or other homebrew) on startup! Created by [webHDX](https://github.com/webhdx/picoboot), [Picoboot](picoboot) runs on a 4$ microcontroller using 5 wires and a drag-and-drop programming from any computer! 
+
 
 ## Legacy / Complicated
 
