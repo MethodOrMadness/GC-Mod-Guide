@@ -13,7 +13,8 @@ Most of the time you use Swiss, an all-in-one homebrew utility for the Nintendo 
 ## How can I do it?
 
 There are three (easy and modern) ways to boot into homebrew.
-- The first being a drivechip such as the XenoGC to use burned discs on your gamecube
+
+- The first being a modchip such as the Picoboot to boot directly into e.g. Swiss
   * You will need some soldering experience to install it
 - The second is using Save Game Exploits, but in order to use it you need a memory card with your exploit
   * either a gamecube/wii with homebrew to create it or you can buy an memory card with your exploit already installed.
@@ -22,8 +23,10 @@ There are three (easy and modern) ways to boot into homebrew.
 - If you are interested, you can check out [some other exploits](/introToHomebrew#legacy--complicated) available for the Gamecube
 
 ## Methods
-### XenoGC
-- This is probably what most people think of when it comes to homebrewing a gamecube. Solder a modchip onto your disc drive and read a burned game(it's a bit more involved than that but we will cover that on [this page](xenoInstall)).
+
+### Picoboot IPL Replacement
+- The most practical way would be a IPL replacement modchip from [webHDX](https://github.com/webhdx/picoboot) that instantly boots swiss(or other homebrew) on startup!
+  * [Picoboot](picoboot) runs on a 4$ microcontroller using 5 wires and a drag-and-drop programming from any computer
 
 ### Game Save Exploits
 - This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup
@@ -32,10 +35,16 @@ There are three (easy and modern) ways to boot into homebrew.
 ### ODE(GCLoader)
 - This is probably the easiest to do long term, short term requires a bit of knowledge on the cube. You essentially replace the disc drive with an SD card. This means you can autoboot a Swiss disc iso, but you can no longer use actual discs
 
-### IPL Replacement
-- Unavailable, check back later for more info
+
 
 ## Legacy / Complicated
+
+### XenoGC
+Checkout [this page](xenoInstall))
+
+* only if you want to have a region-free console to use for example japanese game disks or burned disks
+* requires soldering a modchip into the disk drive to boot burned disks (in this example a Swiss-Disk)
+* not recommended as the berrycube is easier to install, costs the same as the xenogc and the drive does not wear out
 
 ### PSOLoad
 
