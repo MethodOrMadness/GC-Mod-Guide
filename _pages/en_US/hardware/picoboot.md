@@ -31,7 +31,7 @@ If you installed your PicoBoot according to the [Wiring Diagrams](/picoboot#wiri
   * 5 Wires(I harvested wires from breadboard wires by cutting the connectors off and stripping them)
   * Flux
   * Solder
-  * (Optional) Kapton Tape
+  * (HIGHLY Recommended, to prevent shorts) Kapton Tape
 
 ### Wiring Diagrams
 #### DOL-001
