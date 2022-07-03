@@ -1,0 +1,439 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<!-- for guide purposes all caching is removed and is separately built. -->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Picoboot - Gamecube Hacks Guide</title>
+<meta name="description" content="A complete guide to Gamecube Hard/Soft modding">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Gamecube Hacks Guide">
+<meta property="og:title" content="Picoboot">
+<meta property="og:url" content="https://gamecube-guide.retrotastes.com//picoboot.html">
+
+
+  <meta property="og:description" content="A complete guide to Gamecube Hard/Soft modding">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://gamecube-guide.retrotastes.com//picoboot.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "MethodOrMadness",
+      "url": "https://gamecube-guide.retrotastes.com//"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Gamecube Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="manifest" href="/images/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/images/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2e3440"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site."
+  }
+})});
+</script>
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <!-- <a class="site-title" href="/">
+          Gamecube Hacks Guide
+          
+        </a>
+      -->
+        <ul class="visible-links">
+          <!-- modified to use multilang, guide-specific -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Home</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/introToHomebrew">Introduction</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/faq">FAQ</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/credit">Credits</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/site-navigation">Site Navigation</a></li>
+            
+          
+          <!-- end guide specific -->
+        </ul>
+        
+        <!-- completely redo hidden links for multilang, guide-specific -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//picoboot.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//es_ES/picoboot.html">Español</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//de_DE/picoboot.html">Deutsch</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//fr_FR/picoboot.html">Français</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//it_IT/picoboot.html">Italiano</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//nl_NL/picoboot.html">Nederlands</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//pt_BR/picoboot.html">Português do Brasil</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//pt_PT/picoboot.html">Português (Portugal)</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ru_RU/picoboot.html">Русский</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//zh_CN/picoboot.html">简体中文</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//zh_TW/picoboot.html">繁體中文</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//pl_PL/picoboot.html">Polski</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//tr_TR/picoboot.html">Türkçe</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//vi_VN/picoboot.html">Tiếng Việt</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ca_ES/picoboot.html">Català</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//el_GR/picoboot.html">Ελληνικά</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//he_IL/picoboot.html">עברית‎</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//sv_SE/picoboot.html">Svenska</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ko_KR/picoboot.html">한국어</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//no_NO/picoboot.html">Norsk</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ja_JP/picoboot.html">日本語</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ar_SA/picoboot.html">اللغة العربية</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//hu_HU/picoboot.html">Magyar</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ro_RO/picoboot.html">Română</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//sr_SP/picoboot.html">Српски</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//af_ZA/picoboot.html">Afrikaans</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ms_MY/picoboot.html">Bahasa Melayu</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//fi_FI/picoboot.html">Suomi</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//da_DK/picoboot.html">Dansk</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//uk_UA/picoboot.html">Українська</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//cs_CZ/picoboot.html">Čeština</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//en_PT/picoboot.html">Pirate English</a></li> -->
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <!--<button class="greedy-nav__toggle_lang"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>-->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- 
+-->
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Picoboot">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Picoboot
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <!--
+        
+
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>For support in English, ask for help at the <a href="https://discord.gg/gamecube"> Official Gamecube discord</a>.</b></div>
+        -->
+
+        <hr>
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#features" id="markdown-toc-features">Features</a></li>
+  <li><a href="#modchip-programming" id="markdown-toc-modchip-programming">Modchip Programming</a></li>
+  <li><a href="#hardware-installation" id="markdown-toc-hardware-installation">Hardware Installation</a>    <ul>
+      <li><a href="#required-materials" id="markdown-toc-required-materials">Required Materials:</a></li>
+      <li><a href="#wiring-diagrams" id="markdown-toc-wiring-diagrams">Wiring Diagrams</a>        <ul>
+          <li><a href="#dol-001" id="markdown-toc-dol-001">DOL-001</a></li>
+          <li><a href="#dol-101" id="markdown-toc-dol-101">DOL-101</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#software-installation" id="markdown-toc-software-installation">Software Installation</a></li>
+</ul>
+
+  </nav>
+</aside>
+
+<p>Picoboot is an IPL modchip based on the 4$ raspberry pi pico MCU board.</p>
+<ul>
+  <li>You will need a <a href="https://www.raspberrypi.com/products/raspberry-pi-pico/">raspberry pi pico</a> with an SD2SP2 or SD Gecko</li>
+</ul>
+
+<h2 id="features">Features</h2>
+<ul>
+  <li>boots automatically any DOL app of your choice on startup</li>
+  <li>you can assign Buttons <code class="language-plaintext highlighter-rouge">X</code>, <code class="language-plaintext highlighter-rouge">Y</code> or <code class="language-plaintext highlighter-rouge">B</code> to a .dol file if you want, normally it will boot into <code class="language-plaintext highlighter-rouge">ipl.dol</code></li>
+</ul>
+
+<h2 id="modchip-programming">Modchip Programming</h2>
+
+<ul>
+  <li>Go to the <a href="https://github.com/webhdx/PicoBoot/releases/latest">latest release</a> and download the <code class="language-plaintext highlighter-rouge">picoboot.uf2</code> file.</li>
+  <li>connect Raspberry Pi Pico board to your computer while holding <code class="language-plaintext highlighter-rouge">BOOTSEL</code> button pressed</li>
+  <li>Drag and drop picoboot.uf2 file to <code class="language-plaintext highlighter-rouge">RPI-RP2</code> device</li>
+  <li>green LED will light up and the pico itself ejects automatically</li>
+</ul>
+
+<h2 id="hardware-installation">Hardware Installation</h2>
+<p>If you installed your PicoBoot according to the <a href="/picoboot#wiring-diagrams">Wiring Diagrams</a>, go to <a href="/picoboot#software-installation">Software Installation</a></p>
+<ul>
+  <li>Videos for reference:
+    <ul>
+      <li><a href="https://www.youtube.com/watch?v=qwL4ZSa0xMo">MachoNachoProductions</a></li>
+      <li><a href="https://www.youtube.com/watch?v=lfMTLEM0yeQ">RockerGaming</a></li>
+      <li><a href="https://www.youtube.com/watch?v=W_9-mSBMBJ4">ModzvilleUSA!</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="required-materials">Required Materials:</h3>
+<ul>
+  <li>A soldering iron</li>
+  <li>5 Wires(I harvested wires from breadboard wires by cutting the connectors off and stripping them)</li>
+  <li>Flux</li>
+  <li>Solder</li>
+  <li>(HIGHLY Recommended, to prevent shorts) Kapton Tape</li>
+</ul>
+
+<h3 id="wiring-diagrams">Wiring Diagrams</h3>
+<h4 id="dol-001">DOL-001</h4>
+<p><img src="/images/picoboot/001.jpg" alt="DOL-001 install" /></p>
+
+<h4 id="dol-101">DOL-101</h4>
+<p><img src="/images/picoboot/101.jpg" alt="DOL-101 install" /></p>
+
+<h2 id="software-installation">Software Installation</h2>
+<ul>
+  <li>Format your SD card to FAT32 or exFat</li>
+  <li>Download <a href="https://github.com/emukidid/swiss-gc/releases/latest">swiss_rXXXX.7z</a> and extract it</li>
+  <li>go to the <code class="language-plaintext highlighter-rouge">swiss_rXXXX/dol</code> folder, grab the <code class="language-plaintext highlighter-rouge">swiss_rXXXX.dol</code> file and rename it to <code class="language-plaintext highlighter-rouge">ipl.dol</code></li>
+  <li>copy the file to the root of your SD card.
+    <ul>
+      <li>To assign a .dol file to the buttons, rename them to <code class="language-plaintext highlighter-rouge">x.dol</code>, <code class="language-plaintext highlighter-rouge">y.dol</code> or <code class="language-plaintext highlighter-rouge">b.dol</code></li>
+      <li>if no .dol file is present, it will boot into gamecube menu</li>
+    </ul>
+  </li>
+</ul>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/MethodOrMadness/GC-Mod-Guide" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+</div>
+
+<!-- custom footer, guide specific -->
+
+
+
+<div class="page__footer-copyright">&copy; 2022 MethodOrMadness. - <a href="site-navigation">Site Navigation</a> - <a href="privacy-policy">Privacy Policy</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- for guide purposes all caching is removed and is separately built. -->
+
+
+
+
+
+
+
+
+  </body>
+</html>

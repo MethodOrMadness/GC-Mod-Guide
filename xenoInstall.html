@@ -1,0 +1,422 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+
+<!-- for guide purposes all caching is removed and is separately built. -->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>XenoGC Install - Gamecube Hacks Guide</title>
+<meta name="description" content="A complete guide to Gamecube Hard/Soft modding">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Gamecube Hacks Guide">
+<meta property="og:title" content="XenoGC Install">
+<meta property="og:url" content="https://gamecube-guide.retrotastes.com//xenoInstall.html">
+
+
+  <meta property="og:description" content="A complete guide to Gamecube Hard/Soft modding">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="https://gamecube-guide.retrotastes.com//xenoInstall.html">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "MethodOrMadness",
+      "url": "https://gamecube-guide.retrotastes.com//"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/feed.xml" type="application/atom+xml" rel="alternate" title="Gamecube Hacks Guide Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=PYEmwKvQAx">
+<link rel="icon" type="image/png" href="/images/favicon-32x32.png?v=PYEmwKvQAx" sizes="32x32">
+<link rel="icon" type="image/png" href="/images/favicon-194x194.png?v=PYEmwKvQAx" sizes="194x194">
+<link rel="icon" type="image/png" href="/images/android-chrome-192x192.png?v=PYEmwKvQAx" sizes="192x192">
+<link rel="icon" type="image/png" href="/images/favicon-16x16.png?v=PYEmwKvQAx" sizes="16x16">
+<link rel="manifest" href="/images/manifest.json?v=PYEmwKvQAx">
+<link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=PYEmwKvQAx" color="#2E3440">
+<link rel="shortcut icon" href="/images/favicon.ico?v=PYEmwKvQAx">
+<meta name="apple-mobile-web-app-title" content="Guide">
+<meta name="application-name" content="Guide">
+<meta name="msapplication-TileColor" content="#2E3440">
+<meta name="msapplication-TileImage" content="/images/mstile-144x144.png?v=PYEmwKvQAx">
+<meta name="msapplication-config" content="/images/browserconfig.xml?v=PYEmwKvQAx">
+<meta name="theme-color" content="#2E3440">
+
+
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha512-LQ97camar/lOliT/MqjcQs5kWgy6Qz/cCRzzRzUCfv0fotsCTC9ZHXaPQmJV8Xu/PVALfJZ7BDezl5lW3/qBxg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha512-yXXqOFjdjHNH1GND+1EO0jbvvebABpzGKD66djnUfiKlYME5HGMUJHoCaeE4D5PTG2YsSJf6dwqyUUvQvS0vaA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#2e3440"
+    },
+    "button": {
+      "background": "#60818f"
+    }
+  },
+  "theme": "edgeless",
+  "position": "top",
+  "static": true,
+  "content": {
+    "message": "This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site."
+  }
+})});
+</script>
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <!-- <a class="site-title" href="/">
+          Gamecube Hacks Guide
+          
+        </a>
+      -->
+        <ul class="visible-links">
+          <!-- modified to use multilang, guide-specific -->
+          
+          
+          
+          
+          
+          
+            
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="/">Home</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/introToHomebrew">Introduction</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/faq">FAQ</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/credit">Credits</a></li>
+            
+          
+            
+              <li class="masthead__menu-item"><a href="/site-navigation">Site Navigation</a></li>
+            
+          
+          <!-- end guide specific -->
+        </ul>
+        
+        <!-- completely redo hidden links for multilang, guide-specific -->
+        <ul class="hidden-links links-menu hidden"></ul>
+        <ul class="hidden-links lang-menu hidden">
+          
+          
+          
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//xenoInstall.html">English</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//es_ES/xenoInstall.html">Español</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//de_DE/xenoInstall.html">Deutsch</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//fr_FR/xenoInstall.html">Français</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//it_IT/xenoInstall.html">Italiano</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//nl_NL/xenoInstall.html">Nederlands</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//pt_BR/xenoInstall.html">Português do Brasil</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//pt_PT/xenoInstall.html">Português (Portugal)</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ru_RU/xenoInstall.html">Русский</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//zh_CN/xenoInstall.html">简体中文</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//zh_TW/xenoInstall.html">繁體中文</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//pl_PL/xenoInstall.html">Polski</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//tr_TR/xenoInstall.html">Türkçe</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//vi_VN/xenoInstall.html">Tiếng Việt</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ca_ES/xenoInstall.html">Català</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//el_GR/xenoInstall.html">Ελληνικά</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//he_IL/xenoInstall.html">עברית‎</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//sv_SE/xenoInstall.html">Svenska</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ko_KR/xenoInstall.html">한국어</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//no_NO/xenoInstall.html">Norsk</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ja_JP/xenoInstall.html">日本語</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ar_SA/xenoInstall.html">اللغة العربية</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//hu_HU/xenoInstall.html">Magyar</a></li>
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ro_RO/xenoInstall.html">Română</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//sr_SP/xenoInstall.html">Српски</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//af_ZA/xenoInstall.html">Afrikaans</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//ms_MY/xenoInstall.html">Bahasa Melayu</a></li> -->
+          <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//fi_FI/xenoInstall.html">Suomi</a></li>
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//da_DK/xenoInstall.html">Dansk</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//uk_UA/xenoInstall.html">Українська</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//cs_CZ/xenoInstall.html">Čeština</a></li> -->
+          <!-- <li class="masthead__menu-item"><a href="https://gamecube-guide.retrotastes.com//en_PT/xenoInstall.html">Pirate English</a></li> -->
+        </ul>
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <!--<button class="greedy-nav__toggle_lang"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>-->
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  <!-- 
+-->
+
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="XenoGC Install">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">XenoGC Install
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <!--
+        
+
+        <hr>
+
+        
+        
+
+        
+          
+          <div class ="notice"><b>For support in English, ask for help at the <a href="https://discord.gg/gamecube"> Official Gamecube discord</a>.</b></div>
+        -->
+
+        <hr>
+
+        <aside class="sidebar__right">
+<nav class="toc">
+    <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> Table of Contents</h4></header>
+<ul class="toc__menu" id="markdown-toc">
+  <li><a href="#about-the-xenogc" id="markdown-toc-about-the-xenogc">About the xenoGC</a></li>
+  <li><a href="#installing" id="markdown-toc-installing">Installing</a>    <ul>
+      <li><a href="#wire-free-install" id="markdown-toc-wire-free-install">Wire-free install</a></li>
+      <li><a href="#wired-install" id="markdown-toc-wired-install">Wired install</a></li>
+    </ul>
+  </li>
+  <li><a href="#testing--troubleshooting" id="markdown-toc-testing--troubleshooting">Testing / Troubleshooting</a>    <ul>
+      <li><a href="#laser-adjustment" id="markdown-toc-laser-adjustment">Laser adjustment</a></li>
+    </ul>
+  </li>
+</ul>
+
+  </nav>
+</aside>
+
+<h2 id="about-the-xenogc">About the xenoGC</h2>
+
+<p>The XenoGC Install is a lot easier than it first seems, though it does require a fair bit of soldering knowledge.</p>
+
+<p>First, check out the <a href="/disassembly">disassembly guide</a> before continuing! You need to have the RF Shield removed from the drive(looking at the PCB of the drive).</p>
+
+<p>There are two types of installs, wired and wire-free. Since the xenoGC is an open-source modchip(meaning anyone can make it), it’s been cloned countless times, and the specifications of the pcb might be off. For this reason we personally recommend a wired install.</p>
+
+<p>If you need a video in order to understand, <a href="https://www.youtube.com/watch?v=WRbmqxqEL8Q">this one by rockergaming</a> covers the entire install and even disassembly(though through timelapse)</p>
+
+<h2 id="installing">Installing</h2>
+
+<h3 id="wire-free-install">Wire-free install</h3>
+
+<p>Make sure you cover up the unused pads to avoid bridging.</p>
+
+<p><img src="/images/xenogc/tapedjoint.png" alt="taped joint" /></p>
+
+<p><img src="/images/xenogc/install.jpg" alt="solder points" /></p>
+
+<h3 id="wired-install">Wired install</h3>
+
+<p>Referencing the image below, use some small wire like 30 or 32awg magnet wire for the data wires and 22awg for power and ground(power is pad 10 and ground is pad 1 in the image below)</p>
+
+<p><img src="/images/xenogc/altpoint.webp" alt="alt solder points" /></p>
+
+<h2 id="testing--troubleshooting">Testing / Troubleshooting</h2>
+
+<p>When you power on the cube you should see a red LED light up and then turn green(or turn orange depending on the version). this indicates the drive has been patched and <em>should</em> read burned / out of region discs. If you aren’t using out of region(but official) discs but instead burned media, proceed to the next step</p>
+
+<h3 id="laser-adjustment">Laser adjustment</h3>
+
+<p>Typically this step is required, you want to turn the potentiometer on the cube to lower the resistance, we recommend going about 10ohm at a time. use a multimeter to verify the correct resistance.</p>
+
+<p><img src="/images/xenogc/Multimeter_Res.jpg" alt="Multimeter" /></p>
+
+<p>Make sure your multimeter is on Resistence mode, set above 200ohm(highlighted in green)</p>
+
+<p>The blue highlighted section is your reading, this tells you the resistence.</p>
+
+<p>The Red highlighted section are your multimeter leads, you will use thse on the potentiometer to find the resistence.</p>
+
+<p><img src="/images/xenogc/Drive_Pot.jpg" alt="Potetiometer" /></p>
+
+<p>Above is the drive potentiometer, touch the two leads of your multimeter to either point(the color does not matter.) and check the reading. for DOL-001 units(the drive assembly, not the cube itself) this should be between 450 and 600 ohms, make sure to lower it when testing media. for DOL-101 units this can be more around 150-250. Again, lower if if you can read retail discs but not burned ones.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://github.com/MethodOrMadness/GC-Mod-Guide" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+    
+<!--
+    
+      <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+    </ul>
+  -->
+</div>
+
+<!-- custom footer, guide specific -->
+
+
+
+<div class="page__footer-copyright">&copy; 2022 MethodOrMadness. - <a href="site-navigation">Site Navigation</a> - <a href="privacy-policy">Privacy Policy</a> <!-- Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.--></div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+<!-- for guide purposes all caching is removed and is separately built. -->
+
+
+
+
+
+
+
+
+  </body>
+</html>
