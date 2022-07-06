@@ -47,3 +47,5 @@ If you installed your PicoBoot according to the [Wiring Diagrams](/picoboot#wiri
 * copy the file to the root of your SD card.
   - To assign a .dol file to the buttons, rename them to `x.dol`, `y.dol` or `b.dol`
   - if no .dol file is present, it will boot into gamecube menu
+
+All images for installation are kindly provided to us from webhdx, please make sure to checkout his guthub for all the cool things picoboot can do!
