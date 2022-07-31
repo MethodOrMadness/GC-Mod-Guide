@@ -26,7 +26,8 @@ There are three (easy and modern) ways to boot into homebrew.
 
 ### Picoboot IPL Replacement
 - The most practical way would be a IPL replacement modchip from [webHDX](https://github.com/webhdx/picoboot) that instantly boots swiss(or other homebrew) on startup!
-  * [Picoboot](picoboot) runs on a 4$ microcontroller using 5 wires and a drag-and-drop programming from any computer
+  * Picoboot runs on a 4$ microcontroller using 5 wires and a drag-and-drop programming from any computer
+  * See the [Wiki](https://github.com/webhdx/PicoBoot/wiki) page to install the modchip 
 
 ### Game Save Exploits
 - This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup
