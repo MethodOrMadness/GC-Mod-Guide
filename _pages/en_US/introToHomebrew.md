@@ -26,7 +26,8 @@ There are three (easy and modern) ways to boot into homebrew.
 
 ### Picoboot IPL Replacement
 - The most practical way would be a IPL replacement modchip from [webHDX](https://github.com/webhdx/picoboot) that instantly boots swiss(or other homebrew) on startup!
-  * [Picoboot](picoboot) runs on a 4$ microcontroller using 5 wires and a drag-and-drop programming from any computer
+  * Picoboot runs on a 4$ microcontroller using 5 wires and a drag-and-drop programming from any computer
+  * See the [Wiki](https://github.com/webhdx/PicoBoot/wiki) page to install the modchip 
 
 ### Game Save Exploits
 - This is the second way, it is usually free (if you already have the game) or cheap and generally easy to setup
@@ -40,7 +41,7 @@ There are three (easy and modern) ways to boot into homebrew.
 ## Legacy / Complicated
 
 ### XenoGC
-Checkout [this page](xenoInstall))
+Checkout [this page](xenoInstall)
 
 * only if you want to have a region-free console to use for example japanese game disks or burned disks
 * requires soldering a modchip into the disk drive to boot burned disks (in this example a Swiss-Disk)
