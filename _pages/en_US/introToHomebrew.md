@@ -41,7 +41,7 @@ There are three (easy and modern) ways to boot into homebrew.
 ## Legacy / Complicated
 
 ### XenoGC
-Checkout [this page](xenoInstall))
+Checkout [this page](xenoInstall)
 
 * only if you want to have a region-free console to use for example japanese game disks or burned disks
 * requires soldering a modchip into the disk drive to boot burned disks (in this example a Swiss-Disk)
